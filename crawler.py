@@ -52,7 +52,7 @@ def printHtml(blogs):
         f.write('</body>')
         f.write('</html>')
 
-   
+# python .\crawler.py https://www.cnblogs.com/CloudMan6/p/5224114.html
 if __name__ == '__main__':
     blogs=[]
     url = sys.argv[1]
